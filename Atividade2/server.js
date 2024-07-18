@@ -12,7 +12,7 @@ let users = [];
 // Rota para a página de cadastro
 app.get("/", (req, res) => {
   res.send(`
-        <form action="/cadastro" method="POST">
+        <form action="/" method="POST">
             <label for="name">Nome:</label>
             <input type="text" id="name" name="name" required><br>
             <label for="email">E-mail:</label>
